@@ -1,0 +1,28 @@
+Formularios de Registro e Iinicio de Sesión:
+{ 
+"_id": Objectld("..."), // MongoDB genera automáticamente este ID "username": "nombreDeUsuario" , "password":
+"contraseñaEncriptada" , // ¡Nunca alnacenar contraseñas en texto plano! Usa bcrypt o similar. 
+"email":
+"correoElectronico@ejemplo.com"
+,
+// ...otros campos sregun tus necesidades
+}
+
+Interacción con Películas: 
+{
+"_id": Objectld("..."),
+"titulo": "Titulo de la Película", "cartelera": true, // indica si está en cartelera (booleano)
+"fechas": [
+{"fecha":
+ISODATE("2024-03-08T19:00:00Z"), "asientosDisponibles":80]
+// ...más fechas
+],
+// ... otros campos
+] 
+
+{
+"_id": Objectld("..."), 
+"usuariold": Objectld("..."), // Referencia al usuario que hizo la reserva "peliculald": Objectld("..."), // referencia a la película 
+"fecha": ISOD  ATE("2024-03-08t19:00:00Z"),
+// ...OTROS CAMPOS
+}
