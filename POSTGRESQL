@@ -4,6 +4,6 @@ VARCHAR(255) UNIQUENOT NULL,
 CONTRASEÑA VARCHAR(255) NOT NULL--
 );
 
-create table peliculas(id SERAIL PRIMARY KEY, titulo VARCHAR(255)NOT NULL,
+create table peliculas(id SERIAL PRIMARY KEY, titulo VARCHAR(255)NOT NULL,
 description TEXT, fecha_estreno DATE
 );
